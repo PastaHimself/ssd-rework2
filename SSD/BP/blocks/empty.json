@@ -5,13 +5,10 @@
       "identifier": "thebrokenscript:empty"
     },
     "components": {
-      "minecraft:geometry": "geometry.empty",
-      "minecraft:material_instances": {
-        "*": {
-          "texture": "empty",
-          "render_method": "alpha_test"
-        }
-      }
+      "minecraft:collision_box": false,
+      "minecraft:selection_box": false,
+      "minecraft:light_dampening": 0,
+      "minecraft:loot": "loot_tables/blocks/none.json"
     }
   }
 }

@@ -8,10 +8,7 @@
         },
         "components": {
             "minecraft:type_family": {
-                "family": ["entity","despawn","lookat","sleep_prevention","monster","stalk"]
-            },
-            "minecraft:type_family": {
-                "family": ["hereiam"]
+                "family": ["entity","despawn","lookat","sleep_prevention","monster","stalk","hereiam"]
             },
             "minecraft:health": {
                 "value": 20,
@@ -33,7 +30,7 @@
 			"minecraft:entity_spawned": {
 				"queue_command": {
 					"command": [
-						"execute as @p at @s run tp @e[type=thebrokenscript:null_ground_scare,c=1] ^^^-2","function crash","function crash", "function crash"
+						"execute as @p at @s run tp @e[type=thebrokenscript:null_ground_scare,c=1] ^^^-2"
 					]
 				}
     		}

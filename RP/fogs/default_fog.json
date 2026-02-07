@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "thebrokenscript:2chunk"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 15,
+        "fog_end": 20,
+        "fog_color": "#ffffff",
+        "render_distance_type": "fixed"
+      },
+      "weather": {
+        "fog_start": 0.0,
+        "fog_end": 1,
+        "fog_color": "#666666",
+        "render_distance_type": "render"
+      }
+    }
+  }
+}

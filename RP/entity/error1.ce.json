@@ -1,0 +1,29 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:error1",
+            "materials": {
+                "default": "entity_emissive_alpha"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/notexture"
+            },
+            "geometry": {
+                "default": "geometry.error1"
+            },
+            "scripts": {
+                "animate": ["walk_controller"]
+            },
+            "animations": {
+                "walk_controller": "controller.animation.error1.walk",
+                "walk": "animation.error1.walk"
+            },
+"spawn_egg": {
+	"overlay_color": "#000000",
+	"base_color": "#000000"
+},
+            "render_controllers": ["controller.render.error1"]
+        }
+    }
+}

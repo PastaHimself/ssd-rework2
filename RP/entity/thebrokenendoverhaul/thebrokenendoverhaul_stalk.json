@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:thebrokenendoverhaul_stalk",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/brokenendoverhaulcalm",
+                "angry": "textures/TBS/entity/brokenendoverhaulangry",
+                "calm": "textures/TBS/entity/brokenendoverhaulcalm"
+            },
+            "geometry": {
+                "default": "geometry.thebrokenendoverhaul"
+            },
+            "scripts": {
+                "animate": ["tbe_overhaul"]
+            },
+            "animations": {
+                "tbe_overhaul": "controller.animation.null.idle",
+                "walk": "animation.thebrokenendoverhaul.walk",
+                "idle": "animation.thebrokenendoverhaul.idle2"
+            },
+"spawn_egg": {
+	"overlay_color": "#000000",
+	"base_color": "#000000"
+},
+            "render_controllers": ["controller.render.thebrokenendoverhaul"]
+        }
+    }
+}

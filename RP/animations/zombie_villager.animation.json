@@ -1,0 +1,14 @@
+//This JSON was modified by Rainvay_ZCYF (@ZouChenyunfei on Twitter/X) and AgentMindStorm (@agentms.bsky.social on Bluesky). Please do not use this document without permission.
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.zombie_villager.clothes_size": {
+      "loop": true,
+      "bones": {
+        "clothes": {
+            "scale": [ 1, 1, "((query.armor_texture_slot(1) != -1 && query.armor_texture_slot(1) != 5) || query.armor_texture_slot(2) != -1) ? 0.9 : 1.0" ]
+        }
+      }
+    }
+  }
+}

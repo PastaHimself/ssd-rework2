@@ -1,0 +1,31 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:zombie_villager_v2",
+      "scripts": {
+        "pre_animation": [
+          "variable.num_professions = 15;",
+          "variable.profession_index = ((query.variant < variable.num_professions) ? query.variant : 0);",
+          "variable.level_index = query.trade_tier;",
+          "variable.hat_visible = !query.is_baby && (variable.profession_index > 5 || variable.profession_index < 1);",
+          "variable.tcos0 = (Math.cos(query.modified_distance_moved * 38.17 * (query.is_baby ? 3.52173 : 1.0)) * query.modified_move_speed * (query.is_baby ? 0.65714 : 1.0) / variable.gliding_speed_value) * 57.3;"
+        ],
+        "scale": "0.99725"
+      },
+      "textures": {
+        "level_stone": "textures/entity/villager2/levels/level_stone",
+        "level_iron": "textures/entity/villager2/levels/level_iron",
+        "level_gold": "textures/entity/villager2/levels/level_gold",
+        "level_emerald": "textures/entity/villager2/levels/level_emerald",
+        "level_diamond": "textures/entity/villager2/levels/level_diamond"
+      },
+      "render_controllers": [
+        "controller.render.zombie_villager_v2_base",
+        "controller.render.zombie_villager_v2_biome",
+        "controller.render.zombie_villager_v2_profession",
+        "controller.render.zombie_villager_v2_level"
+      ]
+    }
+  }
+}

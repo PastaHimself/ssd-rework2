@@ -1,0 +1,1 @@
+damage @a 1

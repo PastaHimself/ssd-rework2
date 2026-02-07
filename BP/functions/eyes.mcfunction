@@ -1,0 +1,9 @@
+execute as @e[type=minecraft:player] at @s run particle thebrokenscript:eyes ~3~1.5~3
+execute as @e[type=minecraft:player] at @s run particle thebrokenscript:eyes ~-3~0.5~3
+execute as @e[type=minecraft:player] at @s run particle thebrokenscript:eyes ~-3~0.5~-3
+execute as @e[type=minecraft:player] at @s run particle thebrokenscript:eyes ~3~3.5~-3
+execute as @e[type=minecraft:player] at @s run particle thebrokenscript:eyes ~~1.5~3
+execute as @e[type=minecraft:player] at @s run particle thebrokenscript:eyes ~~1.5~-3
+execute as @e[type=minecraft:player] at @s run particle thebrokenscript:eyes ~-1~2.5~2
+execute as @e[type=minecraft:player] at @s run particle thebrokenscript:eyes ~2~1.5~
+execute as @e[type=minecraft:player] at @s run particle thebrokenscript:eyes ~1~3.5~

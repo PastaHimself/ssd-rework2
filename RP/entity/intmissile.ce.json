@@ -1,0 +1,25 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:intmissile",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/intmissile"
+            },
+            "geometry": {
+                "default": "geometry.intmissile"
+            },
+            "scripts": {
+                "animate": ["attack_controller"]
+            },
+            "animations": {
+                "attack_controller": "controller.animation.intmissile.attack",
+                "attack": "animation.intmissile.attack"
+            },
+            "render_controllers": ["controller.render.integrity"]
+        }
+    }
+}

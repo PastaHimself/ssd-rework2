@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:deprivation",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/null"
+            },
+            "geometry": {
+                "default": "geometry.deprivation"
+            },
+            "scripts": {
+                "animate": ["walk_controller",
+					"look_at_target"]
+            },
+            "animations": {
+                "walk_controller": "controller.animation.thebrokenend.walk",
+                "walking": "animation.thebrokenend.walk",
+                "look_at_target": "animation.deprivation.look_at_target"
+            },
+"spawn_egg": {
+	"overlay_color": "#000000",
+	"base_color": "#000000"
+},
+            "render_controllers": ["controller.render.deprivation"]
+        }
+    }
+}

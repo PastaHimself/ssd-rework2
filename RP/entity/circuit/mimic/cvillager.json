@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:cvillager",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/Cvillager"
+            },
+            "geometry": {
+                "default": "geometry.villager"
+            },
+            "scripts": {
+                "animate": ["circuit",
+					"look_at_target"]
+            },
+            "animations": {
+                "circuit": "controller.animation.circuit",
+                "walk": "animation.villager.walk",
+                "idle": "animation.villager.idle",
+                "look_at_target": "animation.villager.look_at_target"
+            },
+"spawn_egg": {
+	"overlay_color": "#000000",
+	"base_color": "#000000"
+},
+            "render_controllers": ["controller.render.circuit"]
+        }
+    }
+}

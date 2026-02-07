@@ -1,0 +1,68 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"halomandre8484",
+     "udinmadin"
+		],
+		"license": "All Rights Reserved"
+	},
+	"header": {
+		"name": "Some.Sunny.Day 1.6.4 Rp",
+		"description": "Here i am =)",
+		"min_engine_version": [
+			1,
+			21,
+			0
+		],
+		"uuid": "6bbb7321-61f6-4a5a-a473-f40f931ce57f",
+		"version": [
+			1,
+			4,
+			6
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "604092d8-4569-4e2d-be09-bf6b5eaada02",
+			"version": [
+				1,
+				4,
+				6
+			]
+		}
+	],
+	"subpacks": [
+		{
+			"folder_name": "Phases_a_no",
+			"name": "The phases 1-8 of the TBS moon | vhs overlay: OFF",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "Phases_b_no",
+			"name": "The phases 9-16 of the TBS moon | vhs overlay: OFF",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "Phases_a_vhs",
+			"name": "The phases 1-8 of the TBS moon | vhs overlay: ON",
+			"memory_tier": 1
+		},
+		{
+			"folder_name": "Phases_b_vhs",
+			"name": "The phases 9-16 of the TBS moon | vhs overlay: ON",
+			"memory_tier": 1
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "d60ab189-32cc-4769-92eb-c8f2a87f570e",
+			"version": [
+				1,
+				4,
+				6
+			]
+		}
+	]
+}

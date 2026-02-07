@@ -1,0 +1,28 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:soul",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/null"
+            },
+            "geometry": {
+                "default": "geometry.null"
+            },
+            "scripts": {
+                "animate": ["soul",
+					"look_at_target"]
+            },
+            "animations": {
+                "soul": "controller.animation.soul",
+                "walk": "animation.human.walk",
+                "idle": "animation.null.idle",
+                 "look_at_target": "animation.common.look_at_target"
+            },
+            "render_controllers": ["controller.render.null"]
+        }
+    }
+}

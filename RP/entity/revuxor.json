@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:revuxor",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/revuxor"
+            },
+            "geometry": {
+                "default": "geometry.human"
+            },
+            "scripts": {
+                "animate": ["idle_controller",
+					"look_at_target"]
+            },
+            "animations": {
+                "idle_controller": "controller.animation.null.idle",
+                "idle": "animation.null.idle",
+                 "look_at_target": "animation.common.look_at_target"
+            },
+"spawn_egg": {
+    "texture": "thebrokenscript:revuxor_sp",
+    "texture_index": 0
+},
+            "render_controllers": ["controller.render.ram2die"]
+        }
+    }
+}

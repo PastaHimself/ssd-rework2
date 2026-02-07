@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "mesa"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#76b4fe"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "thebrokenscript:badlands_fog"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#0001FD"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#9e814d"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#90814d"
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#9e814d"
+      }
+    }
+  }
+}

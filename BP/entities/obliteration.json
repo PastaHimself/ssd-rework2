@@ -1,0 +1,38 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:obliteration",
+            "is_summonable": true,
+            "is_spawnable": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["entity","despawn"]
+            },
+            "minecraft:health": {
+                "value": 200,
+                "max": 200
+            },
+            "minecraft:movement": {
+                "value": 0
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 2
+            },
+"minecraft:behavior.random_stroll": {
+                "priority": 6,
+                "speed_multiplier": 1
+            }
+        },
+		"events": {
+			"minecraft:entity_spawned": {
+				"queue_command": {
+					"command": ["playsound ambient.cave @a"
+               ]
+				}
+         }
+      }
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:look",
+            "is_summonable": true,
+            "is_spawnable": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["gen"]
+            },
+            "minecraft:type_family": {
+                "family": ["hereiam"]
+            },
+            "minecraft:movement": {
+                "value": 0
+            },
+	         "minecraft:tick_world": {
+				"never_despawn": true
+	      	},
+            "minecraft:collision_box": {
+                "width": 0.1,
+                "height": 0.1
+            },
+"minecraft:behavior.look_at_player": {
+	"priority": 0,
+	"look_distance": 150,
+	"probability": 100
+            }
+        }
+    }
+}

@@ -1,0 +1,112 @@
+{
+    "format_version": "1.21.40",
+    "thebrokenscript:error": {
+        "textures": "thebrokenscript:error",
+        "sound": "stone"
+    },
+    "thebrokenscript:errornotexture": {
+        "textures": "thebrokenscript:errornotexture",
+        "sound": "stone"
+    },
+    "minecraft:light_block_0": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_1": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_2": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_3": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_4": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_5": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_6": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_7": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_8": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_9": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_10": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_11": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_12": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_13": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_14": { "textures": "light", "sound": "stone" },
+    "minecraft:light_block_15": { "textures": "light", "sound": "stone" },
+    "reeds": {
+        "blockshape": "azalea",
+        "ambient_occlusion_exponent": 0.0,
+        "textures": {
+            "up": "reeds_invisible",
+            "east": "reeds",
+            "north": "reeds_invisible",
+            "down": "reeds",
+            "west": "reeds_invisible",
+            "south": "reeds_invisible"
+        }
+    },
+    "structure_void": {
+        "blockshape": "invisible"
+    },
+    "barrel": {
+        "carried_textures": {
+            "up": "barrel_top",
+            "down": "barrel_bottom",
+            "north": "barrel_side",
+            "south": "barrel_side",
+            "east": "barrel_side_carried",
+            "west": "barrel_side_carried"
+        }
+    },
+    "cartography_table": {
+        "carried_textures": {
+            "up": "cartography_table_top_carried",
+            "down": "cartography_table_bottom",
+            "north": "cartography_table_side1",
+            "south": "cartography_table_side3",
+            "west": "cartography_table_side3",
+            "east": "cartography_table_side2"
+        }
+    },
+    "fletching_table": {
+        "carried_textures": {
+            "up": "fletching_table_top_carried",
+            "down": "birch_planks",
+            "north": "fletching_table_side2",
+            "south": "fletching_table_side2",
+            "east": "fletching_table_side1",
+            "west": "fletching_table_side1"
+        }
+    },
+    "obsidian": {
+        "ambient_occlusion_exponent": 1.0,
+        "isotropic": false
+    },
+    "red_sand": {
+        "ambient_occlusion_exponent": 1.0,
+        "isotropic": false
+    },
+    "thebrokenscript:protected_void": {
+        "textures": "thebrokenscript:voidexpblock",
+        "sound": "stone"
+    },
+    "thebrokenscript:protected_void_light": {
+        "textures": "thebrokenscript:void_light",
+        "sound": "stone"
+    },
+    "thebrokenscript:it": {
+        "textures": "thebrokenscript:it",
+        "sound": "stone"
+    },
+    "thebrokenscript:block3": {
+        "textures": "thebrokenscript:block3",
+        "sound": "stone"
+    },
+    "thebrokenscript:empty": {
+        "textures": "thebrokenscript:black",
+        "sound": "stone"
+    },
+    "thebrokenscript:all_dead": {
+        "textures": "thebrokenscript:black",
+        "sound": "stone"
+    },
+    "thebrokenscript:white": {
+        "textures": "thebrokenscript:exit",
+        "sound": "stone"
+    },
+    "thebrokenscript:console": {
+        "textures": "thebrokenscript:console",
+        "sound": "stone"
+    }
+}

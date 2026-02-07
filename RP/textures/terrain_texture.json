@@ -1,0 +1,291 @@
+{
+  "resource_pack_name": "vanilla",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "thebrokenscript:error": {
+      "textures": "textures/TBS/blocks/error"
+    },
+    "thebrokenscript:errornotexture": {
+      "textures": "textures/TBS/blocks/errornotexture"
+    },
+    "thebrokenscript:flesh": {
+      "textures": "textures/TBS/blocks/flesh"
+    },
+    "thebrokenscript:glowing_obsidian": {
+      "textures": "textures/TBS/blocks/glowing_obsidian"
+    },
+    "thebrokenscript:voidexpblock": {
+      "textures": "textures/TBS/blocks/voidexpblock"
+    },
+    "thebrokenscript:voidexpblock_err": {
+      "textures": "textures/TBS/blocks/voidexpblock_err"
+    },
+    "thebrokenscript:void_light": {
+      "textures": "textures/TBS/blocks/voidlight"
+    },
+    "thebrokenscript:it": {
+      "textures": "textures/TBS/blocks/it"
+    },
+    "thebrokenscript:block3": {
+      "textures": "textures/TBS/blocks/block3"
+    },
+    "thebrokenscript:black": {
+      "textures": "textures/TBS/blocks/dark"
+    },
+    "thebrokenscript:exit": {
+      "textures": "textures/TBS/blocks/exit"
+    },
+    "thebrokenscript:console": {
+      "textures": "textures/TBS/blocks/console"
+    },
+    "thebrokenscript:void_door": {
+      "textures": "textures/TBS/blocks/void_door"
+    },
+    "reeds_invisible": {
+      "textures": "textures/blocks/reeds_invisible"
+    },
+    "stonecutter_bottom_shaded": {
+      "textures": "textures/blocks/shading/stonecutter_bottom"
+    },
+    "stonecutter_side_shaded": {
+      "textures": "textures/blocks/shading/stonecutter_side"
+    },
+    "stonecutter_other_side_shaded": {
+      "textures": "textures/blocks/shading/stonecutter_other_side"
+    },
+    "short_grass": {
+      "textures": [
+        {
+          "variations": [
+            {
+              "path": "textures/blocks/tallgrass",
+              "weight": 1
+            },
+            {
+              "path": "textures/blocks/tallgrass_warm",
+              "weight": 1
+            },
+            {
+              "path": "textures/blocks/tallgrass_cold",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    "fern": {
+      "textures": [
+        {
+          "variations": [
+            {
+              "path": "textures/blocks/fern",
+              "weight": 1
+            },
+            {
+              "path": "textures/blocks/fern_warm",
+              "weight": 1
+            },
+            {
+              "path": "textures/blocks/fern_cold",
+              "weight": 1
+            }
+          ]
+        }
+      ]
+    },
+    "bedrock": {
+      "textures": "textures/blocks/bedrock"
+    },
+    "deepslate": {
+      "textures": "textures/blocks/deepslate/deepslate"
+    },
+    "deepslate_top": {
+      "textures": "textures/blocks/deepslate/deepslate_top"
+    },
+    "dirt": {
+      "textures": [
+        "textures/blocks/dirt",
+        "textures/blocks/coarse_dirt"
+      ]
+    },
+    "dirt_side": {
+      "textures": [
+        "textures/blocks/dirt",
+        "textures/blocks/coarse_dirt"
+      ]
+    },
+    "monster_egg": {
+      "textures": [
+        "textures/blocks/cobblestone",
+        "textures/blocks/stonebrick",
+        "textures/blocks/stonebrick_mossy",
+        "textures/blocks/stonebrick_cracked",
+        "textures/blocks/stonebrick_carved",
+        "textures/blocks/stone"
+      ]
+    },
+    "stone": {
+      "textures": [
+        "textures/blocks/stone",
+        "textures/blocks/stone_granite",
+        "textures/blocks/stone_granite_smooth",
+        "textures/blocks/stone_diorite",
+        "textures/blocks/stone_diorite_smooth",
+        "textures/blocks/stone_andesite",
+        "textures/blocks/stone_andesite_smooth"
+      ]
+    },
+    "bedrock_varied": {
+      "textures": "textures/blocks/bedrock"
+    },
+    "bedrock_top_varied": {
+      "textures": "textures/blocks/bedrock"
+    },
+    "deepslate_varied": {
+      "textures": "textures/blocks/deepslate/deepslate"
+    },
+    "deepslate_top_varied": {
+      "textures": "textures/blocks/deepslate/deepslate_top"
+    },
+    "dirt_varied": {
+      "textures": [
+        "textures/blocks/dirt",
+        "textures/blocks/coarse_dirt"
+      ]
+    },
+    "infested_stone_varied": {
+      "textures": "textures/blocks/stone"
+    },
+    "infested_stone_top_varied": {
+      "textures": "textures/blocks/stone"
+    },
+    "monster_egg_varied": {
+      "textures": [
+        "textures/blocks/cobblestone",
+        "textures/blocks/stonebrick",
+        "textures/blocks/stonebrick_mossy",
+        "textures/blocks/stonebrick_cracked",
+        "textures/blocks/stonebrick_carved",
+        "textures/blocks/stone"
+      ]
+    },
+    "monster_egg_top_varied": {
+      "textures": [
+        "textures/blocks/cobblestone",
+        "textures/blocks/stonebrick",
+        "textures/blocks/stonebrick_mossy",
+        "textures/blocks/stonebrick_cracked",
+        "textures/blocks/stonebrick_carved",
+        "textures/blocks/stone"
+      ]
+    },
+    "stone_varied": {
+      "textures": "textures/blocks/stone"
+    },
+    "stone_top_varied": {
+      "textures": "textures/blocks/stone"
+    },
+    "barrel_side_carried": {
+      "textures": [
+        "textures/blocks/barrel_side_carried"
+      ]
+    },
+    "cartography_table_top_carried": {
+      "textures": "textures/blocks/cartography_table_top_carried"
+    },
+    "fletching_table_top_carried": {
+      "textures": "textures/blocks/fletcher_table_top_carried"
+    },
+    "grass_side": {
+      "textures": [
+        {
+          "overlay_color": "#61bc3a",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#90814d",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#bdb655",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#99bb4b",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#56bc31",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#5abc33",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#55bc30",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#5a674c",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#5a674c",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#8eba54",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#507a32",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#79ba4e",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#7ab951",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#67bb43",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#67bb43",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#78b557",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#82b064",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#87ad6b",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#88ad6e",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#b6db61",
+          "path": "textures/blocks/grass_side"
+        },
+        {
+          "overlay_color": "#778272",
+          "path": "textures/blocks/grass_side"
+        },
+        "textures/blocks/grass_side_snowed"
+      ]
+    }
+  }
+}

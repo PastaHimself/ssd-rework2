@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "lush_caves"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#7fa7ff"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "thebrokenscript:lush_caves_fog"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#0001FD"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#57b02b"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#7bb951"
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#906739"
+      }
+    }
+  }
+}

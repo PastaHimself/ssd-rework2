@@ -1,0 +1,60 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "thebrokenscript:deep_warm_ocean_fog"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.1,
+        "fog_end": 1.0,
+        "fog_color": "#8AC5D4",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0.0,
+        "fog_end": 60.0,
+        "fog_color": "#43D5EE",
+        "render_distance_type": "fixed"
+      }
+    },
+    "volumetric": {
+      "density": {
+        "water": {
+          "max_density": 0.05,
+          "uniform": true
+        },
+        "air": {
+          "max_density": 0.01,
+          "uniform": true
+        }
+      },
+      "media_coefficients": {
+        "water": {
+          "scattering": [
+            0.1,
+            0.2,
+            0.3
+          ],
+          "absorption": [
+            0.5,
+            0.3,
+            0.1
+          ]
+        },
+        "air": {
+          "scattering": [
+            0.02,
+            0.02,
+            0.02
+          ],
+          "absorption": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+
+{
+  "resource_pack_name": "The broken script",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "thebrokenscript:circuit_bread": {
+      "textures": "textures/TBS/items/circuit_bread"
+    },
+    "thebrokenscript:config": {
+      "textures": "textures/TBS/items/config"
+    },
+    "thebrokenscript:disc_13": {
+      "textures": "textures/TBS/items/record_13"
+    },
+    "thebrokenscript:none": {
+      "textures": "textures/TBS/items/none"
+    },
+    "thebrokenscript:n": {
+      "textures": "textures/TBS/items/n"
+    },
+    "thebrokenscript:null_bread": {
+      "textures": "textures/TBS/items/null_bread"
+    },
+    "thebrokenscript:revuxor": {
+      "textures": "textures/TBS/items/gore"
+    },
+    "thebrokenscript:circuit_sp": {
+      "textures": "textures/TBS/items/eggs/spawn_egg_circuit"
+    },
+    "thebrokenscript:he_sp": {
+      "textures": "textures/TBS/items/eggs/spawn_egg_he"
+    },
+    "thebrokenscript:herobrine_sp": {
+      "textures": "textures/TBS/items/eggs/spawn_egg_herobrine"
+    },
+    "thebrokenscript:hetzer_sp": {
+      "textures": "textures/TBS/items/eggs/spawn_egg_hetzer"
+    },
+    "thebrokenscript:revuxor_sp": {
+      "textures": "textures/TBS/items/eggs/spawn_egg_revuxor"
+    },
+    "thebrokenscript:sub_anomaly_1_sp": {
+      "textures": "textures/TBS/items/eggs/spawn_egg_sub_anomaly_1"
+    },
+    "thebrokenscript:tbe_sp": {
+      "textures": "textures/TBS/items/eggs/spawn_egg_tbe"
+    }
+  }
+}

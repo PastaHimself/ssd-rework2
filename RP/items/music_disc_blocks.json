@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:record_blocks"
+    },
+    "components": {
+      "minecraft:rarity": "rare"
+    }
+  }
+}

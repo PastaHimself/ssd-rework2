@@ -1,0 +1,54 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:null_ground",
+            "is_summonable": true,
+            "is_spawnable": true
+        },
+		"component_groups": {
+		   	"spotted": {
+				"minecraft:transformation": {
+					"into": "thebrokenscript:null_ground_scare"
+				}
+			}
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["entity","despawn","lookat","sleep_prevention","monster","stalk"]
+            },
+            "minecraft:type_family": {
+                "family": ["hereiam"]
+            },
+            "minecraft:health": {
+                "value": 10000,
+                "max": 10000
+            },
+            "minecraft:movement": {
+                "value": 0
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 2
+            },
+"minecraft:behavior.random_stroll": {
+                "priority": 6,
+                "speed_multiplier": 1
+            }
+        },
+		"events": {
+			"spotted": {
+				"add": {
+					"component_groups": [
+						"spotted"
+					]
+             },
+				"queue_command": {
+					"command": [
+						"playsound thebrokenendishere @a","tag @s add jumpscorooo"
+					]
+				}
+    		}
+       }
+   }
+}

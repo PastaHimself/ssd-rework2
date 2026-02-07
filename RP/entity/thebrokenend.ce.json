@@ -1,0 +1,29 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:thebrokenend",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/thebrokenend"
+            },
+            "geometry": {
+                "default": "geometry.thebrokenend"
+            },
+            "scripts": {
+                "animate": ["walk_controller"]
+            },
+            "animations": {
+                "walk_controller": "controller.animation.thebrokenend.walk",
+                "walk": "animation.thebrokenend.walk"
+            },
+"spawn_egg": {
+	"overlay_color": "#000000",
+	"base_color": "#000000"
+},
+            "render_controllers": ["controller.render.thebrokenend"]
+        }
+    }
+}

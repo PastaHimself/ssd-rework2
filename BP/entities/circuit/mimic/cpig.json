@@ -1,0 +1,90 @@
+{
+        "format_version": "1.21.50",
+        "minecraft:entity": {
+                "description": {
+                        "identifier": "thebrokenscript:cpig",
+                        "is_summonable": true,
+                        "is_spawnable": true
+                },
+                "component_groups": {
+                        "spotted": {
+                                "minecraft:transformation": {
+                                        "into": "thebrokenscript:circuit"
+                                }
+                        }
+                },
+                "components": {
+                        "minecraft:type_family": {
+                                "family": [
+                                        "entity",
+                                        "despawn",
+                                        "nosoul",
+                                        "monster",
+                                        "mimic"
+                                ]
+                        },
+                        "minecraft:health": {
+                                "value": 100,
+                                "max": 100
+                        },
+                        "minecraft:follow_range": {
+                                "value": 20
+                        },
+                        "minecraft:attack": {
+                                "damage": 3
+                        },
+                        "minecraft:movement": {
+                                "value": 0.5
+                        },
+                        "minecraft:collision_box": {
+                                "width": 0.5,
+                                "height": 1
+                        },
+                        "minecraft:physics": {},
+                        "minecraft:jump.static": {},
+                        "minecraft:movement.basic": {},
+                        "minecraft:navigation.walk": {
+                                "can_walk": true,
+                                "avoid_sun": false,
+                                "can_pass_doors": false,
+                                "can_open_doors": false
+                        },
+                        "minecraft:behavior.look_at_player": {
+                                "priority": 4,
+                                "look_distance": 20,
+                                "probability": 50
+                        },
+                        "minecraft:behavior.avoid_mob_type": {
+                                "priority": 4,
+                                "entity_types": [
+                                        {
+                                                "filters": {
+                                                        "any_of": [
+                                                                {
+                                                                        "test": "is_family",
+                                                                        "subject": "other",
+                                                                        "value": "player"
+                                                                }
+                                                        ]
+                                                },
+                                                "max_dist": 5,
+                                                "sprint_speed_multiplier": 1
+                                        }
+                                ]
+                        },
+                        "minecraft:behavior.random_stroll": {
+                                "priority": 6,
+                                "speed_multiplier": 1
+                        }
+                },
+                "events": {
+                        "spotted": {
+                                "add": {
+                                        "component_groups": [
+                                                "spotted"
+                                        ]
+                                }
+                        }
+                }
+        }
+}

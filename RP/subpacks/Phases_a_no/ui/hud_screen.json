@@ -1,0 +1,611 @@
+{
+	"root_panel": {
+		"modifications": [
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"sn_ek@hud.sn_ek_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"cant_you_see@hud.cant_you_see_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"fake_bsod@hud.fake_bsod_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"soul@hud.soul_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"textvhs@hud.textvhs_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"textvhs2@hud.textvhs2_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"red@hud.red_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"dots1@hud.dots1_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"dots2@hud.dots2_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"dots3@hud.dots3_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"dots4@hud.dots4_factory": {}
+          }
+      },
+			{
+        "array_name": "controls",
+				"operation": "insert_front",
+				"value": {
+					"wecanhearyou@hud.wecanhearyou_factory": {}
+          }
+      }
+		]
+	},
+  "hud_title_text/title_frame/title": {
+		"modifications": [
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'sn_ek') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'cantyousee') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'bsod') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'soul') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'textvhs') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'textvhs2') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'red') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'dots1') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'dots2') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'dots3') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'dots4') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			},
+			{
+				"array_name": "bindings",
+				"operation": "insert_back",
+				"value": {
+					"binding_type": "view",
+					"source_property_name": "(not ((#text = 'wecanhearyou') or (#text = 'clear')))",
+					"target_property_name": "#visible"
+				}
+			}
+		]
+	},
+
+  "sn_ek": {
+    "type": "image",
+    "texture": "textures/TBS/ui/snimok_ekrana_2024-11-02_090828",
+    "offset":[],
+    "fill": true,
+    "$fit_to_width": true,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 999999,
+		"size": [
+			"100%",
+			"100%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'sn_ek')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "cant_you_see": {
+    "type": "image",
+    "texture": "textures/TBS/ui/cantyousee",
+    "offset":[],
+    "fill": true,
+    "$fit_to_width": true,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 999999,
+		"size": [
+			"100%",
+			"100%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'cantyousee')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "fake_bsod": {
+    "type": "image",
+    "texture": "textures/TBS/ui/bsodd",
+    "offset":[],
+    "fill": true,
+    "$fit_to_width": true,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 999999,
+		"size": [
+			"100%",
+			"100%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'bsod')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "soul": {
+    "type": "image",
+    "texture": "textures/TBS/ui/custom_errors/soul",
+    "offset":[],
+    "fill": false,
+    "$fit_to_width": true,
+    "anchor_from": "center",
+    "anchor_to": "center",
+    "layer": 999999,
+		"size": [
+			"50%",
+			"50%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'soul')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "textvhs": {
+    "type": "image",
+    "texture": "textures/TBS/ui/textvhs1",
+    "offset":[],
+    "fill": false,
+    "$fit_to_width": true,
+    "anchor_from": "top_left",
+    "anchor_to": "top_left",
+    "layer": 999999,
+		"size": [
+			"70%",
+			"70%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'textvhs')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "textvhs2": {
+    "type": "image",
+    "texture": "textures/TBS/ui/textvhs1",
+    "offset":[],
+    "fill": false,
+    "$fit_to_width": true,
+    "anchor_from": "botton_right",
+    "anchor_to": "bottom_right",
+    "layer": 999999,
+		"size": [
+			"70%",
+			"70%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'textvhs2')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "red": {
+    "type": "image",
+    "texture": "textures/TBS/ui/screenshot_2025-01-01_145155",
+    "offset":[],
+    "fill": true,
+    "$fit_to_width": true,
+    "anchor_from": "centre",
+    "anchor_to": "centre",
+    "layer": 999999,
+		"size": [
+			"100%",
+			"100%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'red')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "dots1": {
+    "type": "image",
+    "texture": "textures/TBS/ui/dotscreenframe1",
+    "offset":[],
+    "fill": true,
+    "$fit_to_width": true,
+    "anchor_from": "centre",
+    "anchor_to": "centre",
+    "layer": 999999,
+		"size": [
+			"100%",
+			"100%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'dots1')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "dots2": {
+    "type": "image",
+    "texture": "textures/TBS/ui/dotscreenframe2",
+    "offset":[],
+    "fill": true,
+    "$fit_to_width": true,
+    "anchor_from": "centre",
+    "anchor_to": "centre",
+    "layer": 999999,
+		"size": [
+			"100%",
+			"100%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'dots2')",
+        "target_property_name": "#visible"
+      }
+    ]
+  }, 
+  "dots3": {
+    "type": "image",
+    "texture": "textures/TBS/ui/dotscreenframe2",
+    "offset":[],
+    "fill": true,
+    "$fit_to_width": true,
+    "anchor_from": "centre",
+    "anchor_to": "centre",
+    "layer": 999999,
+		"size": [
+			"100%",
+			"100%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'dots3')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "dots4": {
+    "type": "image",
+    "texture": "textures/TBS/ui/dotscreenframe4",
+    "offset":[],
+    "fill": true,
+    "$fit_to_width": true,
+    "anchor_from": "centre",
+    "anchor_to": "centre",
+    "layer": 999999,
+		"size": [
+			"100%",
+			"100%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'dots4')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "wecanhearyou": {
+    "type": "image",
+    "texture": "textures/TBS/ui/wecanhearyou",
+    "offset":[],
+    "fill": true,
+    "$fit_to_width": true,
+    "anchor_from": "centre",
+    "anchor_to": "centre",
+    "layer": 999999,
+		"size": [
+			"100%",
+			"100%"
+		],
+    "bindings": [
+      {
+        "binding_name": "#hud_title_text_string"
+      },
+      {
+        "binding_type": "view",
+        "source_property_name": "(#hud_title_text_string = 'wecanhearyou')",
+        "target_property_name": "#visible"
+      }
+    ]
+  },
+  "sn_ek_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "sn_ek@hud.sn_ek"
+      }
+    }
+  },
+  "cant_you_see_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "cant_you_see@hud.cant_you_see"
+      }
+    }
+  },
+  "fake_bsod_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "fake_bsod@hud.fake_bsod"
+      }
+    }
+  },
+  "soul_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "soul@hud.soul"
+      }
+    }
+  },
+  "textvhs_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "textvhs@hud.textvhs"
+      }
+    }
+  },
+  "textvhs2_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "textvhs2@hud.textvhs2"
+      }
+    }
+  },
+  "red_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "red@hud.red"
+      }
+    }
+  },
+  "dots1_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "dots1@hud.dots1"
+      }
+    }
+  },
+  "dots2_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "dots2@hud.dots2"
+      }
+    }
+  },
+  "dots3_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "dots3@hud.dots3"
+      }
+    }
+  },
+  "dots4_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "dots4@hud.dots4"
+      }
+    }
+  },
+  "wecanhearyou_factory": {
+    "type": "panel",
+    "orientation": "vertical",
+    "factory": {
+    "name": "hud_title_text_factory",
+    "control_ids": {
+      "hud_title_text": "wecanhearyou@hud.wecanhearyou"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:integrity",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/integritywip"
+            },
+            "geometry": {
+                "default": "geometry.integrity"
+            },
+            "scripts": {
+                "animate": ["integrity",
+					"look_at_target"]
+            },
+            "animations": {
+                "integrity": "controller.animation.integrity",
+                "walking": "animation.integrity.walk",
+                "idle": "animation.integrity.1",
+                "look_at_target": "animation.common.look_at_target"
+            },
+"spawn_egg": {
+	"overlay_color": "#000000",
+	"base_color": "#000000"
+},
+            "render_controllers": ["controller.render.integrity"]
+        }
+    }
+}

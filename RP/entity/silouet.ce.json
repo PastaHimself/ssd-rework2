@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:silouet",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/error5"
+            },
+            "geometry": {
+                "default": "geometry.silouet"
+            },
+            "scripts": {
+                "animate": ["walk_controller",
+					"look_at_target"]
+            },
+            "animations": {
+                "walk_controller": "controller.animation.error5.walk",
+                "walk": "animation.error5.walk",
+                "look_at_target": "animation.silouet.look_at_target"
+            },
+"spawn_egg": {
+	"overlay_color": "#000000",
+	"base_color": "#000000"
+},
+            "render_controllers": ["controller.render.error5"]
+        }
+    }
+}

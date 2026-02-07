@@ -1,0 +1,60 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:circuit_cave_stalk",
+            "is_summonable": true,
+            "is_spawnable": false
+        },
+		"component_groups": {
+		   	"spotted": {
+				"minecraft:transformation": {
+					"into": "thebrokenscript:circuit_cave"
+				}
+			}
+      },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["entity","despawn","nosoul","lookat","monster","stalk"]
+            },
+            "minecraft:health": {
+                "value": 100,
+                "max": 100
+            },
+            "minecraft:movement": {
+                "value": 0
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 1
+            },
+            "minecraft:physics": {},
+            "minecraft:jump.static": {},
+            "minecraft:movement.basic": {},
+            "minecraft:navigation.walk": {
+                "can_walk": true,
+                "avoid_sun": false,
+                "can_pass_doors": false,
+                "can_open_doors": false
+            },
+"minecraft:behavior.look_at_player": {
+	"priority": 7,
+	"look_distance": 150,
+	"probability": 20
+            },
+"minecraft:behavior.random_stroll": {
+                "priority": 2,
+                "speed_multiplier": 1
+            }
+        },
+		"events": {
+			"spotted": {
+				"add": {
+					"component_groups": [
+						"spotted"
+					]
+             }
+    		}
+       }
+   }
+}

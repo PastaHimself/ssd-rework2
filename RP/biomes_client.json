@@ -1,0 +1,414 @@
+{
+  "biomes": {
+    "default": {
+      "fog_identifier": "thebrokenscript:ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD",
+      "water_surface_transparency": 1.0
+    },
+    "bamboo_jungle": {
+      "fog_identifier": "thebrokenscript:bamboo_jungle_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "bamboo_jungle_hills": {
+      "fog_identifier": "thebrokenscript:bamboo_jungle_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "basalt_deltas": {
+      "fog_identifier": "thebrokenscript:nether_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "beach": {
+      "fog_identifier": "thebrokenscript:beach_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "birch_forest": {
+      "fog_identifier": "thebrokenscript:birch_forest_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "birch_forest_hills": {
+      "fog_identifier": "thebrokenscript:birch_forest_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "cherry_grove": {
+      "fog_identifier": "thebrokenscript:cherry_grove_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "cold_beach": {
+      "fog_identifier": "thebrokenscript:snowy_beach_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "cold_ocean": {
+      "fog_identifier": "thebrokenscript:cold_ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "cold_taiga": {
+      "fog_identifier": "thebrokenscript:snowy_taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "cold_taiga_hills": {
+      "fog_identifier": "thebrokenscript:snowy_taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "cold_taiga_mutated": {
+      "fog_identifier": "thebrokenscript:snowy_taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "crimson_forest": {
+      "fog_identifier": "thebrokenscript:nether_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "deep_cold_ocean": {
+      "fog_identifier": "thebrokenscript:deep_cold_ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "deep_dark": {
+      "fog_identifier": "thebrokenscript:dripstone_caves_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "deep_frozen_ocean": {
+      "fog_identifier": "thebrokenscript:deep_frozen_ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "deep_lukewarm_ocean": {
+      "fog_identifier": "thebrokenscript:deep_lukewarm_ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "deep_ocean": {
+      "fog_identifier": "thebrokenscript:deep_ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "deep_warm_ocean": {
+      "fog_identifier": "thebrokenscript:deep_warm_ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "desert": {
+      "fog_identifier": "thebrokenscript:desert_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "desert_hills": {
+      "fog_identifier": "thebrokenscript:desert_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "dripstone_caves": {
+      "fog_identifier": "thebrokenscript:dripstone_caves_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "extreme_hills": {
+      "fog_identifier": "thebrokenscript:windswept_hills_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "extreme_hills_edge": {
+      "fog_identifier": "thebrokenscript:windswept_hills_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "extreme_hills_mutated": {
+      "fog_identifier": "thebrokenscript:windswept_gravelly_hills_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "extreme_hills_plus_trees": {
+      "fog_identifier": "thebrokenscript:windswept_forest_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "extreme_hills_plus_trees_mutated": {
+      "fog_identifier": "thebrokenscript:windswept_garvelly_hills_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "flower_forest": {
+      "fog_identifier": "thebrokenscript:flower_forest_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "forest": {
+      "fog_identifier": "thebrokenscript:forest_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "forest_hills": {
+      "fog_identifier": "thebrokenscript:forest_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "frozen_ocean": {
+      "fog_identifier": "thebrokenscript:frozen_ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "frozen_peaks": {
+      "fog_identifier": "thebrokenscript:snowcapped_peaks_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "frozen_river": {
+      "fog_identifier": "thebrokenscript:frozen_river_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "grove": {
+      "fog_identifier": "thebrokenscript:grove_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "hell": {
+      "fog_identifier": "thebrokenscript:nether_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "ice_mountains": {
+      "fog_identifier": "thebrokenscript:snowy_plains_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "ice_plains": {
+      "fog_identifier": "thebrokenscript:snowy_plains_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "ice_plains_spikes": {
+      "fog_identifier": "thebrokenscript:ice_spikes_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "jagged_peaks": {
+      "fog_identifier": "thebrokenscript:lofty_peaks_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "jungle": {
+      "fog_identifier": "thebrokenscript:jungle_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "jungle_edge": {
+      "fog_identifier": "thebrokenscript:sparse_jungle_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "jungle_hills": {
+      "fog_identifier": "thebrokenscript:jungle_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "jungle_mutated": {
+      "fog_identifier": "thebrokenscript:jungle_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "lukewarm_ocean": {
+      "fog_identifier": "thebrokenscript:lukewarm_ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "lush_caves": {
+      "fog_identifier": "thebrokenscript:lush_caves_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mangrove_swamp": {
+      "fog_identifier": "thebrokenscript:mangrove_swamp_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD",
+      "water_surface_transparency": 1.0
+    },
+    "meadow": {
+      "fog_identifier": "thebrokenscript:meadow_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mega_spruce_taiga": {
+      "fog_identifier": "thebrokenscript:old_growth_spruce_taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mega_spruce_taiga_mutated": {
+      "fog_identifier": "thebrokenscript:old_growth_spruce_taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mega_taiga": {
+      "fog_identifier": "thebrokenscript:old_growth_pine_taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mega_taiga_hills": {
+      "fog_identifier": "thebrokenscript:old_growth_pine_taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mega_taiga_mutated": {
+      "fog_identifier": "thebrokenscript:old_growth_pine_taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mesa": {
+      "fog_identifier": "thebrokenscript:badlands_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mesa_bryce": {
+      "fog_identifier": "thebrokenscript:badlands_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mesa_mutated": {
+      "fog_identifier": "thebrokenscript:badlands_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mesa_plateau": {
+      "fog_identifier": "thebrokenscript:badlands_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mesa_plateau_stone": {
+      "fog_identifier": "thebrokenscript:badlands_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mushroom_island": {
+      "fog_identifier": "thebrokenscript:mushroom_fields_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "mushroom_island_shore": {
+      "fog_identifier": "thebrokenscript:mushroom_fields_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "ocean": {
+      "fog_identifier": "thebrokenscript:ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "pale_garden": {
+      "fog_identifier": "thebrokenscript:pale_garden_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "plains": {
+      "fog_identifier": "thebrokenscript:plains_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "river": {
+      "fog_identifier": "thebrokenscript:river_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "roofed_forest": {
+      "fog_identifier": "thebrokenscript:dark_forest_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "savanna": {
+      "fog_identifier": "thebrokenscript:savanna_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "savanna_mutated": {
+      "fog_identifier": "thebrokenscript:windswept_savanna_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "savanna_plateau": {
+      "fog_identifier": "thebrokenscript:windswept_savanna_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "snowy_slopes": {
+      "fog_identifier": "thebrokenscript:snowy_slopes_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "soulsand_valley": {
+      "fog_identifier": "thebrokenscript:nether_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "stone_beach": {
+      "fog_identifier": "thebrokenscript:stony_shore_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "stony_peaks": {
+      "fog_identifier": "thebrokenscript:stony_peaks_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "sunflower_plains": {
+      "fog_identifier": "thebrokenscript:sunflower_plains_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "swampland": {
+      "fog_identifier": "thebrokenscript:swamp_fog",
+      "water_surface_color": "#E0FFAE",
+      "water_fog_color": "#0001FD",
+      "water_surface_transparency": 1.0
+    },
+    "swampland_mutated": {
+      "fog_identifier": "thebrokenscript:swamp_fog",
+      "water_surface_color": "#E0FFAE",
+      "water_fog_color": "#0001FD",
+      "water_surface_transparency": 1.0
+    },
+    "taiga": {
+      "fog_identifier": "thebrokenscript:taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "taiga_hills": {
+      "fog_identifier": "thebrokenscript:taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "taiga_mutated": {
+      "fog_identifier": "thebrokenscript:taiga_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "the_end": {
+      "fog_identifier": "thebrokenscript:the_end_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    },
+    "warm_ocean": {
+      "fog_identifier": "thebrokenscript:warm_ocean_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD",
+      "water_surface_transparency": 1.0
+    },
+    "warped_forest": {
+      "fog_identifier": "thebrokenscript:nether_fog",
+      "water_surface_color": "#0001FD",
+      "water_fog_color": "#0001FD"
+    }
+  }
+}

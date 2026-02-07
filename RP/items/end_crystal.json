@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:end_crystal"
+    },
+    "components": {
+      "minecraft:rarity": "rare"
+    }
+  }
+}

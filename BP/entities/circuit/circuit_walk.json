@@ -1,0 +1,79 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:circuit_walk",
+            "is_summonable": true,
+            "is_spawnable": false
+        },
+		"component_groups": {
+		   	"spotted": {
+				"minecraft:transformation": {
+					"into": "thebrokenscript:circuit"
+				}
+			}
+      },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["entity","despawn","monster","stalk","lookat"]
+            },
+            "minecraft:health": {
+                "value": 100,
+                "max": 100
+           },
+			   "minecraft:follow_range": {
+		    		"value": 256
+            },
+            "minecraft:movement": {
+                "value": 0.5
+            },
+            "minecraft:collision_box": {
+                "width": 1,
+                "height": 3
+            },
+            "minecraft:physics": {},
+            "minecraft:jump.static": {},
+            "minecraft:movement.basic": {},
+            "minecraft:navigation.walk": {
+                "can_walk": true,
+                "avoid_sun": false,
+                "can_pass_doors": false,
+                "can_open_doors": false
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "priority": 2,
+				    "must_see": false,
+                "within_radius": 64,
+                "reselect_targets": true,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "player"
+                                }
+                            ]
+                        },
+                        "max_dist": 64
+                    }
+                ]
+            },
+"minecraft:behavior.look_at_player": {
+	"priority": 7,
+	"look_distance": 150,
+	"probability": 20
+            }
+         },
+		"events": {
+			"spotted": {
+				"add": {
+					"component_groups": [
+						"spotted"
+					]
+             }
+    		}
+       }
+   }
+}

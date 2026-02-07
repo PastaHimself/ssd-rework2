@@ -1,0 +1,1 @@
+execute as @e[family=stalk] at @s unless block ~~-0.5~ air run tp ~~~ facing @p

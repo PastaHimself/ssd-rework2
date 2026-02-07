@@ -1,0 +1,20 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:block": {
+        "description": {
+            "identifier": "thebrokenscript:protected_void"
+        },
+        "components": {
+            "minecraft:destructible_by_mining": {
+                "seconds_to_destroy": 255
+            },
+            "minecraft:destructible_by_explosion": {
+                "explosion_resistance": 9
+            },
+            "minecraft:friction": 0.4,
+            "minecraft:map_color": "#ffffff",
+            "minecraft:light_dampening": 15,
+            "minecraft:light_emission": 0
+        }
+    }
+}

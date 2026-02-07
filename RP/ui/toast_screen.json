@@ -1,0 +1,14 @@
+{
+  "game_tip_label": {
+    "color": [ 0.3098, 0, 0.3098 ]
+  },
+  "popup_anim": {
+    "easing": "out_cubic"
+  },
+  "recipe_unlocked_popup": {
+    "texture": "textures/ui/whiteBorder"
+  },
+  "recipe_unlocked_pocket_popup": {
+    "texture": "textures/ui/whiteBorder"
+  }
+}

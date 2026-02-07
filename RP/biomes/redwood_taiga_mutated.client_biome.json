@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "redwood_taiga_mutated"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#8da5ff"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "thebrokenscript:old_growth_spruce_taiga_fog"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#0001FD"
+      }
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:circuit",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/circuit"
+            },
+            "geometry": {
+                "default": "geometry.circuit"
+            },
+            "scripts": {
+                "animate": ["circuit",
+					"look_at_target"]
+            },
+            "animations": {
+                "circuit": "controller.animation.circuit",
+                "walk": "animation.circuit.chase2",
+                "idle": "animation.circuit.idle2",
+                "look_at_target": "animation.circuit.look_at_target"
+            },
+"spawn_egg": {
+    "texture": "thebrokenscript:circuit_sp",
+    "texture_index": 0
+},
+            "render_controllers": ["controller.render.circuit"]
+        }
+    }
+}

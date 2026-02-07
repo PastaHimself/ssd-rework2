@@ -1,0 +1,14 @@
+{
+	"format_version" : "1.16.0",
+	"animations" : {
+		"animation.fireworks_rocket.move" : {
+			"loop" : true,
+			"bones" : {
+				"body" : {
+					"rotation" : [ "-query.target_x_rotation", "-query.target_x_rotation > 70 || -query.target_x_rotation < -70 ? query.camera_rotation(1) : -query.target_y_rotation", 0.0 ],
+					"scale" : 0.8
+				}
+			}
+		}
+	}
+}

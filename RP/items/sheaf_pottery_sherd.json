@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:sheaf_pottery_sherd"
+    },
+    "components": {
+      "minecraft:rarity": "common"
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:null_ground_scare",
+            "is_summonable": true,
+            "is_spawnable": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["entity","despawn","lookat","sleep_prevention","monster","stalk"]
+            },
+            "minecraft:type_family": {
+                "family": ["hereiam"]
+            },
+            "minecraft:health": {
+                "value": 20,
+                "max": 20
+            },
+            "minecraft:movement": {
+                "value": 0
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 2
+            },
+"minecraft:behavior.random_stroll": {
+                "priority": 6,
+                "speed_multiplier": 1
+            }
+        },
+		"events": {
+			"minecraft:entity_spawned": {
+				"queue_command": {
+					"command": [
+						"execute as @p at @s run tp @e[type=thebrokenscript:null_ground_scare,c=1] ^^^-2","function crash","function crash", "function crash"
+					]
+				}
+    		}
+       }
+   }
+}

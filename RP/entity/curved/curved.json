@@ -1,0 +1,31 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:curved",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/steve"
+            },
+            "geometry": {
+                "default": "geometry.curved"
+            },
+            "scripts": {
+                "animate": ["walk_controller",
+					"look_at_target"]
+            },
+            "animations": {
+                "walk_controller": "controller.animation.curved",
+                "walk": "animation.human.run",
+                "look_at_target": "animation.common.look_at_target"
+            },
+"spawn_egg": {
+	"overlay_color": "#000000",
+	"base_color": "#000000"
+},
+            "render_controllers": ["controller.render.curved"]
+        }
+    }
+}

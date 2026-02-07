@@ -1,0 +1,30 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:sub_anomaly",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/null"
+            },
+            "geometry": {
+                "default": "geometry.none"
+            },
+            "scripts": {
+                "animate": ["idle_controller"]
+            },
+            "animations": {
+                "idle_controller": "controller.animation.null.idle",
+                "idle": "animation.null.idle",
+                 "look_at_target": "animation.common.look_at_target"
+            },
+"spawn_egg": {
+    "texture": "thebrokenscript:sub_anomaly_1_sp",
+    "texture_index": 0
+},
+            "render_controllers": ["controller.render.null"]
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:cpig",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/Cpig"
+            },
+            "geometry": {
+                "default": "geometry.pig"
+            },
+            "scripts": {
+                "animate": ["circuit",
+					"look_at_target"]
+            },
+            "animations": {
+                "circuit": "controller.animation.circuit",
+                "walk": "animation.pig.walk",
+                "idle": "animation.pig.idle",
+                "look_at_target": "animation.pig.look_at_target"
+            },
+"spawn_egg": {
+	"overlay_color": "#000000",
+	"base_color": "#000000"
+},
+            "render_controllers": ["controller.render.circuit"]
+        }
+    }
+}

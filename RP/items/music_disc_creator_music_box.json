@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:record_creator_music_box"
+    },
+    "components": {
+      "minecraft:rarity": "rare"
+    }
+  }
+}

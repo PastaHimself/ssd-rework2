@@ -1,0 +1,297 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "ded": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/ded",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "circuit_chase": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/nulljumpscareoverhaul",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "normalambienceevent": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/normalambienceevent",
+          "load_on_low_memory": true,
+          "volume": 3
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "moonglitch": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/moonglitch",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "thebrokenendishere": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/thebrokenendishere",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "falsesubwooferlullaby": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/falsesubwooferlullaby",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "falsecalm2": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/TBS/falsecalm2",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "song": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/TBS/song",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "circuit_jumpscare": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/circuitjumpscare",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 50,
+      "min_distance": 1
+    },
+    "rarethingspawn": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/rarethingspawn",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "nullchase_1": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/nullchase_1",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "integritydefeated": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/integritydefeated",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "youknownothing": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/youknownothing",
+          "load_on_low_memory": true,
+          "volume": 3
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "integrityphase3loop": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/integrityphase3loop",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "randommassjumpscare": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/randommassjumpscare",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "fakebsodaudio": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/fakebsodaudio",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "heartbeat": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/heartbeat",
+          "load_on_low_memory": true,
+          "volume": 3
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "player.breath": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/player.breath",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "glitchroar": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/glitchroar",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "youwillbecomeoneofus": {
+      "category": "neutral",
+      "sounds": [
+        {
+          "name": "sounds/TBS/youwillbecomeoneofus",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "nulldementionambient": {
+      "category": "music",
+      "sounds": [
+        {
+          "name": "sounds/TBS/nulldementionambient",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "disc14new": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/TBS/disc14new",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "disc15betray": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/TBS/disc15betray",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "disc16youcant": {
+      "category": "record",
+      "sounds": [
+        {
+          "name": "sounds/TBS/disc16youcant",
+          "load_on_low_memory": true,
+          "volume": 5
+        }
+      ],
+      "max_distance": 500,
+      "min_distance": 1
+    },
+    "silence": {
+      "category": "neutral",
+      "sounds": []
+    }
+  }
+}

@@ -1,0 +1,1 @@
+execute as @a at @s run fill ~5~5~5 ~-5~-5~-5 stone replace deepslate

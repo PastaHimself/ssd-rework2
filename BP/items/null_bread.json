@@ -1,0 +1,29 @@
+{
+    "format_version": "1.21.110",
+    "minecraft:item": {
+        "description": {
+            "identifier": "thebrokenscript:null_bread",
+            "menu_category": {
+                "category": "equipment",
+                "group": "minecraft:itemGroup.name.miscFood"
+            }
+        },
+        "components": {
+            "minecraft:icon": "thebrokenscript:null_bread",
+            "minecraft:food": {
+                "nutrition": -2,
+                "saturation_modifier": 0
+            },
+            "minecraft:use_animation": "eat",
+            "minecraft:use_modifiers": {
+                "use_duration": 1.6,
+                "movement_modifier": 0.33
+            },
+            "minecraft:tags": {
+                "tags": [
+                    "minecraft:is_food"
+                ]
+            }
+        }
+    }
+}

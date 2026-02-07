@@ -1,0 +1,29 @@
+{
+    "format_version": "1.10.0",
+    "minecraft:client_entity": {
+        "description": {
+            "identifier": "thebrokenscript:hetzer",
+            "materials": {
+                "default": "entity_alphatest"
+            },
+            "textures": {
+                "default": "textures/TBS/entity/hetzerfixed"
+            },
+            "geometry": {
+                "default": "geometry.hetzerfixed"
+            },
+            "scripts": {
+                "animate": ["idle_controller"]
+            },
+            "animations": {
+                "idle_controller": "controller.animation.hetzer.idle",
+                "idle": "animation.hetzer.idle"
+            },
+"spawn_egg": {
+    "texture": "thebrokenscript:hetzer_sp",
+    "texture_index": 0
+},
+            "render_controllers": ["controller.render.hetzer"]
+        }
+    }
+}

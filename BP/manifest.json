@@ -1,0 +1,69 @@
+{
+  "format_version": 2,
+  "metadata": {
+    "authors": [
+      "halomandre8484",
+      "udinmadin and pasta"
+    ],
+    "license": "All Rights Reserved"
+  },
+  "header": {
+    "name": "Some.Sunny.Day 1.6.4 Bp",
+    "description": "Here i am =)",
+    "min_engine_version": [
+      1,
+      21,
+      0
+    ],
+    "uuid": "d60ab189-32cc-4769-92eb-c8f2a87f570e",
+    "version": [
+      1,
+      4,
+      6
+    ]
+  },
+  "modules": [
+    {
+      "type": "data",
+      "uuid": "ef10f9de-acc9-42c1-a368-39973520f084",
+      "version": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "type": "script",
+      "uuid": "1c848a08-ab4a-4581-9dcc-f6f164d0a802",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "version": [
+        1,
+        4,
+        6
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "d60ab189-32cc-4769-92eb-c8f2a87f570e",
+      "version": [
+        1,
+        4,
+        6
+      ]
+    },
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.5.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-admin",
+      "version": "1.0.0-beta"
+    },
+    {
+      "module_name": "@minecraft/server-ui",
+      "version": "2.1.0-beta"
+    }
+  ]
+}

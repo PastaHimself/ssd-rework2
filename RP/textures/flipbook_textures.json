@@ -1,0 +1,37 @@
+[
+    {
+        "atlas_tile": "thebrokenscript:console",
+        "flipbook_texture": "textures/TBS/blocks/console",
+        "ticks_per_frame": 20
+    }, 
+    {
+    "flipbook_texture": "textures/blocks/seagrass",
+    "atlas_tile": "seagrass_short",
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ],
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/seagrass_doubletall_bottom_a",
+    "atlas_tile": "seagrass_tall_bot_a",
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ],
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/seagrass_doubletall_bottom_b",
+    "atlas_tile": "seagrass_tall_bot_b",
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ],
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/seagrass_doubletall_top_a",
+    "atlas_tile": "seagrass_tall_top_a",
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ],
+    "ticks_per_frame": 2
+  },
+  {
+    "flipbook_texture": "textures/blocks/seagrass_doubletall_top_b",
+    "atlas_tile": "seagrass_tall_top_b",
+    "frames": [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 ],
+    "ticks_per_frame": 2
+  }
+]

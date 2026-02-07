@@ -1,0 +1,11 @@
+{
+  "format_version": "1.10",
+  "minecraft:item": {
+    "description": {
+      "identifier": "minecraft:echo_shard"
+    },
+    "components": {
+      "minecraft:rarity": "common"
+    }
+  }
+}

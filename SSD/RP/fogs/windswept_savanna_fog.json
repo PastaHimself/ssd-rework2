@@ -32,7 +32,7 @@
       "weather": {
         "fog_start": 0,
         "fog_end": 1.0,
-        "fog_color": "#60738A",
+        "fog_color": "#60738A", //#2A3036 for thunder
         "render_distance_type": "render"
       },
       "lava": {

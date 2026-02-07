@@ -19,10 +19,10 @@
                 "walk_controller": "controller.animation.error1.walk",
                 "walk": "animation.error1.walk"
             },
-            "spawn_egg": {
-                "overlay_color": "#000000",
-                "base_color": "#000000"
-            },
+"spawn_egg": {
+	"overlay_color": "#000000",
+	"base_color": "#000000"
+},
             "render_controllers": ["controller.render.error1"]
         }
     }

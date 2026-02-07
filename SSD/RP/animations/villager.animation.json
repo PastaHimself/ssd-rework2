@@ -1,0 +1,33 @@
+{
+  "format_version": "1.8.0",
+  "animations": {
+    "animation.villager.baby_transform": {
+      "loop": true,
+      "bones": {
+        "head": {
+          "scale": 1
+        }
+      }
+    },
+    "animation.villager.move": {
+      "anim_time_update": "query.modified_distance_moved",
+      "loop": true,
+      "bones": {
+        "leg0": {
+          "rotation": [ "(math.cos(query.anim_time * (25.0 + (query.modified_move_speed > 2.0 ? 1 : 0) * 5))) * (17.5 + (16.17 + (query.modified_move_speed > 2.0 ? 1 : 0) * 15)) - this", "-this", 0.0 ]
+        },
+        "leg1": {
+          "rotation": [ "(math.cos(query.anim_time * ((25.0 + (query.modified_move_speed > 2.0 ? 1 : 0) * 5)) + 180)) * (17.5 + (16.17 + (query.modified_move_speed > 2.0 ? 1 : 0) * 15)) - this", "-this", 0.0 ]
+        }
+      }
+    },
+    "animation.villager.raise_arms": {
+      "loop": true,
+      "bones": {
+        "arms": {
+          "rotation": [ 0.0, 0.0, 0.0 ]
+        }
+      }
+    }
+  }
+}

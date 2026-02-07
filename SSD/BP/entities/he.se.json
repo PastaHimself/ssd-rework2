@@ -1,0 +1,100 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:he",
+            "is_summonable": true,
+            "is_spawnable": true
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": [
+                    "entity",
+                    "despawn",
+                    "monster",
+                    "path",
+                    "dod"
+                ]
+            },
+            "minecraft:health": {
+                "value": 100000000000,
+                "max": 100000000000
+            },
+            "minecraft:attack": {
+                "damage": 100
+            },
+            "minecraft:movement": {
+                "value": 0.2
+            },
+            "minecraft:break_blocks": {
+                "breakable_blocks": [
+                    "minecraft:oak_leaves",
+                    "minecraft:birch_leaves",
+                    "minecraft:spruce_leaves",
+                    "minecraft:jungle_leaves",
+                    "minecraft:acacia_leaves",
+                    "minecraft:dark_oak_leaves",
+                    "minecraft:oak_planks",
+                    "minecraft:birch_planks",
+                    "minecraft:spruce_planks",
+                    "minecraft:jungle_planks",
+                    "minecraft:acacia_planks",
+                    "minecraft:dark_oak_planks",
+                    "minecraft:birch_log",
+                    "minecraft:oak_log",
+                    "minecraft:glass",
+                    "minecraft:glass_pane",
+                    "minecraft:spruce_log",
+                    "minecraft:acacia_log",
+                    "minecraft:cobblestone",
+                    "minecraft:cobblestone_wall",
+                    "minecraft:jungle_log"
+                ]
+            },
+            "minecraft:collision_box": {
+                "width": 0.25,
+                "height": 1.5
+            },
+            "minecraft:physics": {},
+            "minecraft:jump.static": {},
+            "minecraft:movement.basic": {},
+            "minecraft:navigation.walk": {
+                "can_walk": true,
+                "avoid_sun": false,
+                "can_pass_doors": true,
+                "can_open_doors": true
+            },
+            "minecraft:behavior.nearest_attackable_target": {
+                "priority": 7,
+                "within_radius": 64,
+                "must_see": false,
+                "reselect_targets": true,
+                "entity_types": [
+                    {
+                        "filters": {
+                            "any_of": [
+                                {
+                                    "test": "is_family",
+                                    "subject": "other",
+                                    "value": "player"
+                                }
+                            ]
+                        },
+                        "max_dist": 64
+                    }
+                ]
+            },
+            "minecraft:behavior.delayed_attack": {
+                "priority": 0,
+                "attack_once": false,
+                "track_target": true,
+                "require_complete_path": false,
+                "random_stop_interval": 0,
+                "reach_multiplier": 2.5,
+                "speed_multiplier": 1,
+                "attack_duration": 0.75,
+                "hit_delay_pct": 0.5
+            }
+        }
+    }
+}

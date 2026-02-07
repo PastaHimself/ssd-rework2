@@ -1,0 +1,18 @@
+{
+	"format_version": "1.13.0",
+	"minecraft:structure_template_feature": {
+		"description": {
+			"identifier": "thebrokenscript:cavebase_feature"
+		},
+		"structure_name": "mystructure:cavebase",
+		"adjustment_radius": 4,
+		"facing_direction": "random",
+		"constraints": {
+			"block_intersection": {
+				"block_allowlist": [
+					"minecraft:stone"
+				]
+			}
+		}
+	}
+}

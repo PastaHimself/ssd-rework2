@@ -1,0 +1,40 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:ram2die",
+            "is_summonable": true,
+            "is_spawnable": true
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["entity","despawn","stalk"]
+            },
+            "minecraft:health": {
+                "value": 20,
+                "max": 20
+            },
+           "minecraft:damage_sensor": {
+        "triggers": {
+          "cause": "all",
+          "deals_damage": "no"
+          }
+         },
+            "minecraft:movement": {
+                "value": 0
+            },
+            "minecraft:nameable": {
+              "alwaysShow": true,
+              "allowNameTagRenaming": true
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 2
+            },
+"minecraft:behavior.random_stroll": {
+                "priority": 6,
+                "speed_multiplier": 1
+            }
+        }
+    }
+}

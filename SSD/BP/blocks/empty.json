@@ -1,0 +1,17 @@
+{
+  "format_version": "1.21.20",
+  "minecraft:block": {
+    "description": {
+      "identifier": "thebrokenscript:empty"
+    },
+    "components": {
+      "minecraft:geometry": "geometry.empty",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "empty",
+          "render_method": "alpha_test"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "format_version": "1.21.40",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "snowy_slopes"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#a6a6ff"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "thebrokenscript:snowy_slopes_fog"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#0001FD"
+      }
+    }
+  }
+}

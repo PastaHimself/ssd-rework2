@@ -1,0 +1,30 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:mazeshadow",
+            "is_summonable": true,
+            "is_spawnable": true
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["entity"]
+            },
+            "minecraft:health": {
+                "value": 20,
+                "max": 20
+            },
+            "minecraft:movement": {
+                "value": 0.3
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 2
+            },
+"minecraft:behavior.random_stroll": {
+                "priority": 2,
+                "speed_multiplier": 1
+            }
+        }
+    }
+}

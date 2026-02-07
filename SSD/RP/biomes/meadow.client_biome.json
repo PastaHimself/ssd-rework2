@@ -1,0 +1,28 @@
+{
+  "format_version": "1.21.70",
+  "minecraft:client_biome": {
+    "description": {
+      "identifier": "meadow"
+    },
+    "components": {
+      "minecraft:sky_color": {
+        "sky_color": "#7fa7ff"
+      },
+      "minecraft:fog_appearance": {
+        "fog_identifier": "thebrokenscript:meadow_fog"
+      },
+      "minecraft:water_appearance": {
+        "surface_color": "#0001FD"
+      },
+      "minecraft:foliage_appearance": {
+        "color": "#42b61f"
+      },
+      "minecraft:grass_appearance": {
+        "color": "#67bb43"
+      },
+      "minecraft:dry_foliage_color": {
+        "color": "#8d6837"
+      }
+    }
+  }
+}

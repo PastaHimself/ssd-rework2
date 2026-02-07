@@ -1,0 +1,51 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:null",
+            "is_summonable": true,
+            "is_spawnable": false
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["entity","despawn","lookat","sleep_prevention","monster","stalk"]
+            },
+            "minecraft:health": {
+                "value": 1000000000,
+                "max": 1000000000
+            },
+            "minecraft:movement": {
+                "value": 0
+            },
+            "minecraft:nameable": {
+              "alwaysShow": true,
+              "allowNameTagRenaming": true
+            },
+            "minecraft:collision_box": {
+                "width": 0.5,
+                "height": 2
+            },
+"minecraft:behavior.random_stroll": {
+                "priority": 6,
+                "speed_multiplier": 1
+            }
+        },
+		"events": {
+			"spotted": {
+				"add": {
+					"component_groups": [
+						"spotted"
+					]
+             },
+				"queue_command": {
+					"command": [
+						"playsound youknownothing @a",
+"effect @a blindness 1",
+"kill @e[type=thebrokenscript:null]",
+"tag @s add jumpscorooo"
+					]
+				}
+    		}
+       }
+    }
+}

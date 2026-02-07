@@ -1,0 +1,71 @@
+{
+    "format_version": "1.21.50",
+    "minecraft:entity": {
+        "description": {
+            "identifier": "thebrokenscript:thebrokenendoverhaul_stalk",
+            "is_summonable": true,
+            "is_spawnable": false
+        },
+		"component_groups": {
+		   	"spotted": {
+				"minecraft:transformation": {
+					"into": "thebrokenscript:thebrokenendoverhaul"
+				}
+			}
+        },
+        "components": {
+            "minecraft:type_family": {
+                "family": ["entity","despawn","lookat","sleep_prevention","monster"]
+            },
+            "minecraft:health": {
+                "value": 450,
+                "max": 450
+            },
+            "minecraft:movement": {
+                "value": 0
+            },
+				"minecraft:break_blocks": {
+					"breakable_blocks": [
+						"leaves",
+						"leaves2",
+						"minecraft:planks",
+						"minecraft:birch_log",
+						"minecraft:cobblestone",
+						"minecraft:oak_log",
+						"minecraft:glass",
+						"minecraft:glass_pane",
+						"minecraft:spruce_log",
+						"minecraft:acacia_log",
+						"minecraft:jungle_log"
+					]
+				},
+            "minecraft:collision_box": {
+                "width": 1.5,
+                "height": 5
+            },
+            "minecraft:physics": {},
+            "minecraft:jump.static": {},
+            "minecraft:movement.basic": {},
+            "minecraft:navigation.walk": {
+                "can_walk": true,
+                "avoid_sun": false,
+                "can_pass_doors": false,
+                "can_open_doors": true
+            },
+"minecraft:behavior.look_at_player": {
+	"priority": 7,
+	"look_distance": 150,
+	"probability": 40
+            }
+         },
+		"events": {
+			"spotted": {
+				"add": {
+					"component_groups": [
+						"spotted"
+					]
+				}
+         }
+      }
+   }
+}

@@ -1,0 +1,25 @@
+{
+  "format_version": "1.10.0",
+  "animation_controllers": {
+    "controller.animation.zombie_villager.clothes_size": {
+      "initial_state": "default",
+      "states": {
+        "default": {
+          "transitions": [
+            {
+              "size": "(query.armor_texture_slot(1) != -1 && query.armor_texture_slot(1) != 5) || query.armor_texture_slot(2) != -1"
+            }
+          ]
+        },
+        "size": {
+          "animations": [ "clothes" ],
+          "transitions": [
+            {
+              "default": "(query.armor_texture_slot(1) == -1 && query.armor_texture_slot(2) == -1) || (query.armor_texture_slot(1) == 5 && query.armor_texture_slot(2) == -1)"
+            }
+          ]
+        }
+      }
+    }
+  }
+}
